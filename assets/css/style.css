@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    body{
+    background: #95b3bd;
+    color: rgb(255, 255, 255);
+    }
+    
+    
+    .header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 5px 10%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+    
+    
+    .logo{
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.432);
+    }
+    
+    
+    .navbar a {
+    font-size: 22px;
+    color: rgb(255, 225, 235);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: .3s;
+    }
+    
+    
+    .navbar a:hover,
+    .navbar a.active {
+    color: rgb(255, 255, 255);
+    }
+    
+    
+    .home-content {
+    max-width: 70%;
+    }
+    
+    
+    .image-container {
+    width: 100%; /* Adjust the width as needed */
+    margin-left: 100px; /* Add some space between the image and the text */
+    height: auto;
+    max-height: 100%
+    }
+    
+    
+    
+    
+    .image-container img {
+    width: 100%; /* Make the image responsive */
+    margin-left: 10%;
+    margin-top: 20%;
+    }
+    
+    
+    
+    
+    .home{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    }
+    
+    
+    .home-content {
+    max-width: 600px;
+    }
+    .home-content h1{
+    font-size: 65px;
+    font-weight: 700
+    }
+    
+    
+    .home-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    }
+    
+    
+    .home-content p {
+    font-size: 20px;
+    margin: 20px 0 40px;
+    }
+    
+    
+    .home-content .home-button {
+    width: 345px;
+    height: 50px;
+    }
+    
+    
+    .home-button a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:rgb(201, 180, 180);
+    border: 2px solid rgb(248, 248, 248);
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    }
+    
+    
+    .home-button a:nth-child(2) {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    }
+    .home-button a:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(226, 210, 210);
+    }
+    
+    
+    .home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    .home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+    
+    
+    .home-sci a:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(107, 105, 105);
+    }
